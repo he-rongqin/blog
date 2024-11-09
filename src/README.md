@@ -3,7 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: logo.svg
+bgImage: assets/images/cover3.jpg
 heroText: 路遥
 heroFullScreen: true
 tagline: 想知道自己能走多远，首先要知道自己能看到多远...
