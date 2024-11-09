@@ -3,6 +3,7 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/micro/" : "structure",
   "/faq/" : "structure",
+  "/mybatis/" : "structure",
   "/": [
     "",
     {
