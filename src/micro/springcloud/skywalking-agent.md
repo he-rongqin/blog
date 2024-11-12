@@ -163,15 +163,15 @@ Maven，`sw.version = 9.3.0`
 
 访问`skywalking ui` : `http://localhost:8088`（这里的8088 是从docker中映射出来的端口，以实际情况为准），查看拓扑图
 
-![拓扑图](/blog/assets/images/sw/topo.png)
+![拓扑图](/assets/images/sw/topo.png)
 
 查看`Trace` 列表
 
-![Trace](/blog/assets/images/sw/trace.png)
+![Trace](/assets/images/sw/trace.png)
 
 查看日志
 
-![Log](/blog/assets/images/sw/log.png)
+![Log](/assets/images/sw/log.png)
 
 
 

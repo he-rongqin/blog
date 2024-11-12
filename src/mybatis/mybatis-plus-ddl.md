@@ -90,8 +90,8 @@ public class MysqlDdl implements IDdl {
 - 会根据`getSqlFiles`方法返回的脚本集合执行脚本，该方法默认会去：`db/mysql`读取所有的sql文件。
 - 可以在配置文件中配置：`mybatis-plus.ddl.dir.mysql` 覆盖默认的脚本目录。
 
-![生成的表](/blog/assets/images/mp/mp-ddl-1.png)
+![生成的表](/assets/images/mp/mp-ddl-1.png)
 
-![执行记录](/blog/assets/images/mp/mp-ddl-2.png)
+![执行记录](/assets/images/mp/mp-ddl-2.png)
 
 [完整代码下载](https://github.com/he-rongqin/mybatis-plus-ddl-example.git)
