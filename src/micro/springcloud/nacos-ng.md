@@ -43,4 +43,4 @@ server {
 
 配置完成后，刷新`nginx`配置:`nginx -s reload`，浏览器访问：`http://localhost:9090/nacos/` 就能访问到nacos控制台。
 
-![9090访问](/blog/assets/images/nc/nc-ng.png)
+![9090访问](/assets/images/nc/nc-ng.png)

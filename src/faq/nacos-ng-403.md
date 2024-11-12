@@ -21,7 +21,7 @@ server {
 }
 ```
 
-![403](/blog/assets/images/nc/nc-ng-403.png)
+![403](/assets/images/nc/nc-ng-403.png)
 
 调整代理配置
 
@@ -39,4 +39,4 @@ server {
 ```
 刷新 `nginx` 配置：`nginx -s reload`，刷新浏览器即可。
 
-![调整后访问](/blog/assets/images/nc/nc-ng.png)
+![调整后访问](/assets/images/nc/nc-ng.png)
