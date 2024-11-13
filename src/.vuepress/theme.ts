@@ -5,7 +5,8 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
-
+  print: false,
+  fullscreen: true,
   author: {
     name: "HeRongqin",
     url: "https://mister-hope.com",
