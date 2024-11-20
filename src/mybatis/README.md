@@ -1,5 +1,5 @@
 ---
-title: Mybatis使用笔记
+title: Mybatis
 date: 2024-11-10
 editLink: false
 index: false
