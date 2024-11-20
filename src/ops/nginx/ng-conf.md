@@ -1,5 +1,5 @@
 ---
-title: Nginx 配置
+title: Nginx 全局配置
 date: 2024-11-13
 editLink: false
 category:
@@ -8,7 +8,7 @@ tag:
     - Ngnix
 ---
 
-文件目录：`[Nginx安装目录]/conf`。**Ngnix 最常用命令：`nginx -s reload` 刷新配置。**
+文件目录：`[Nginx安装目录]/conf/nginx.conf`。**Ngnix 最常用命令：`nginx -s reload` 刷新配置。**
 
 ## Ngnix 主配置
 
@@ -53,7 +53,7 @@ http {
     include       mime.types;
     default_type  application/octet-stream;
 
-    # 日志格���
+    # 日志格式化
     log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
                       '$status $body_bytes_sent "$http_referer" '
                       '"$http_user_agent" "$http_x_forwarded_for"'
@@ -136,9 +136,9 @@ http {
 
 ```config
 upstream backend {
-    server http://192.168.x.1:8080 weight=5;
-    server http://192.168.x.2:8080 weight=1;
-    server http://192.168.x.3:8080 weight=3;
+    server http://192.168.0.1:8080 weight=5;
+    server http://192.168.0.2:8080 weight=1;
+    server http://192.168.0.3:8080 weight=3;
 }
 server {
     listen 8080;
