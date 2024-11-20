@@ -9,6 +9,8 @@ tag:
     - SVC
 ---
 
+> 
+
 场景一：
 
 `skywalking oap server` 并不是在k8s集群内部部署，但是想在应用中通过svc访问 `oap server`。
@@ -79,3 +81,7 @@ subsets:
     port: 3306    # 目标服务端口
     protocol: TCP
 ```
+
+参考：
+
+- https://kubernetes.io/zh-cn/docs/reference/kubernetes-api/service-resources/endpoints-v1/

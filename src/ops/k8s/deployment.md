@@ -72,3 +72,7 @@ spec:
             path: /usr/share/zoneinfo/Asia/Shanghai
       restartPolicy: Always   # pod的重启策略，Always - 总是重启；Never - 从不
 ```
+
+参考：
+
+- https://kubernetes.io/zh-cn/docs/reference/kubernetes-api/workload-resources/deployment-v1/

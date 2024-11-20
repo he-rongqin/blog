@@ -30,3 +30,6 @@ spec:
     # 如果 type = NodePort，你可以设置nodePort的端口号，不能冲突
     #nodePort: 
 ```
+
+参考：
+- https://kubernetes.io/zh-cn/docs/reference/kubernetes-api/service-resources/service-v1/
