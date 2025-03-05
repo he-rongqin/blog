@@ -5,6 +5,7 @@ export default sidebar({
   "/faq/": "structure",
   "/mybatis/": "structure",
   "/ops/": "structure",
+  "/interview/": "structure",
   "/": [
     "",
     {

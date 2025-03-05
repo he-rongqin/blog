@@ -6,6 +6,7 @@ export default navbar([
   "/faq/",
   "/mybatis/",
   "/ops/",
+  "/interview/",
   // {
   //   text: "微服务-Spring Cloud",
   //   icon: "pen-to-square",
