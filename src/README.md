@@ -5,9 +5,9 @@ icon: home
 title: 主页
 heroImage: logo.svg
 bgImage: assets/images/cover3.jpg
-heroText: 路遥
+heroText: Monk
 heroFullScreen: true
-tagline: 想知道自己能走多远，首先要知道自己能看到多远...
+tagline: 人生没有后悔药，但代码有
 # projects:
 #   - icon: project
 #     name: 项目名称
@@ -39,5 +39,5 @@ tagline: 想知道自己能走多远，首先要知道自己能看到多远...
 #     desc: 自定义详细介绍
 #     link: https://你的自定义链接
 
-footer: 路遥知马力，日久见人心。想知道自己能走多远，首先要知道自己能看到多远...
+footer: 写代码如写诗，但总在崩溃边缘游走
 ---
